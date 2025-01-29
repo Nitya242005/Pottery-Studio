@@ -1,0 +1,399 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-size: contain;
+  }
+  
+  .banner {
+    position: relative;
+    height: 100vh;
+    background: url('pot.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 50px;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f90;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #e68000;
+  }
+  
+  .info-section{
+    display:flex;
+  }
+  .info-box1{
+    background-color: grey;
+    flex:1;
+    height:500px;
+    text-align:center;
+  
+  }
+  .info-box2{
+    background-color: black;
+    color:white;
+    flex:1;
+    height: 500px;
+    text-align:center;
+  }
+  .info-box1 h2{
+    margin-top:150px;
+
+  }
+  .divider1{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+    margin: 10px auto;
+}
+  .info-box1 p{
+    margin-top:50px;
+  }
+  .info-box2 h2{
+    margin-top:150px;
+
+  }
+  .divider2{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+    margin: 10px auto;
+}
+  .info-box1 p{
+    margin-top:50px;
+  }
+  .btn{
+    margin-top: 30px;
+  }
+  /*.workshops-section {
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+  }
+  
+  .workshops-content {
+    width:600px;
+    height:600px;
+    color: black;
+    background-color:antiquewhite;
+  }*/
+  .workshops-section {
+    display: flex;
+  }
+  
+  .workshops-content {
+    flex:1;
+    height:730px;
+    color: black;
+    order:1;
+    background-color:antiquewhite;
+  }
+  .workshops-image {
+    width:100%;
+    flex:2;
+    order:2;
+
+  }
+  
+  .workshops-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  .divider3{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+}
+  
+  .workshops-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /*.workshops-image {
+    width:100%;
+  }*/
+  
+  .workshops-image img {
+   width:100%;
+  }
+  .membership-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .membership-image {
+    order:1;
+    flex:2;
+
+  }
+  
+ .membership-image img {
+    width:100%;
+  }
+  
+  .membership-content {
+    color:white;
+    order:2;
+    flex:1;
+    height:765px;
+    background-color:black;
+  }
+  
+  .membership-content h2 {
+    font-size: 1.8rem;
+    margin-left:5px;
+    margin-bottom: 15px;
+    text-align:left;
+    margin-top: 100px;
+  }
+  .divider4{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+    margin-left:5px;
+}
+  
+  .membership-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    width:100%;
+    margin-left:5px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  .membership-content .btn {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    margin-left:5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top:100px;
+  }
+  
+  .membership-content .btn:hover {
+    background-color: #e65500;
+  }
+  .container1{
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+  
+  .container1 h1 {
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .divider5{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+    margin: 10px auto;
+}
+  
+  .description {
+    font-size: 1rem;
+    color:black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  .view-products {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .view-products:hover {
+    background-color: #ff4500;
+  }
+  .testimonial-section {
+    position: relative; 
+    background: url('pottery7.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    display: flex;
+    min-height: 400px;
+  }
+  
+  .testimonial-box {
+    position: absolute; /* Enables positioning relative to the parent container */
+    bottom: -150px; /* Moves the box half out of the image section */
+    left:25%; /* Centers the box horizontally */
+    transform: translateX(-50%); /* Adjusts centering */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 20px 30px; /* Inner spacing */
+    text-align: center; /* Centers the content */
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+}
+  
+  .testimonial-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .divider6{
+    width: 50px;
+    height: 2px;
+    background-color: #ff7f50;
+}
+
+  .quote {
+    font-style: italic;
+    color: #555;
+    position: relative;
+    text-align: justify;
+  }
+  
+  /*.quote-icon {
+    font-size: 2rem;
+    color: #ff7f50;
+    vertical-align: middle;
+    margin-right: 5px;
+  }*/
+  .quote-icon {
+    font-size:40px;
+    color:black;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color:#ff7f50;
+    border-radius: 50%; /* Circle shape */
+    padding: 10px; /* Space inside the circle */
+    display: inline-block;
+    width: 30px; /* Equal width and height */
+    height: 30px;
+    text-align:center;
+}
+
+  
+  .author {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .newsletter-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 1.8rem;
+    margin-top: 130px;
+    margin-bottom: 25px;
+  }
+  
+  .newsletter-description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    
+  }
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    gap: 10px; /* Spacing between input and button */
+    margin: 0 auto;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+.newsletter-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 70%;
+    background-color: #333;
+    color: grey;
+    outline: none; /* Removes default focus outline */
+    box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.newsletter-form button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px; /* Provides better sizing for the button */
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.newsletter-form button:hover {
+    background-color: #ff4500;
+}
